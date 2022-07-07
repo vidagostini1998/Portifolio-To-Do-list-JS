@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#tarefa{
+    height: 30px;
+    width: 500px;
+}
+
+#tarefas{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 42%;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+input[type=checkbox]:checked ~ label {
+    text-decoration: line-through;
+ }
